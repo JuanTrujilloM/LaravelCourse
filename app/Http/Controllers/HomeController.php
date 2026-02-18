@@ -14,13 +14,13 @@ class HomeController extends Controller
     public function contact(): View
     {
         $viewData = [];
-        $viewData['title'] = "Contact us - Online Store";
-        $viewData['subtitle'] = "Contact us";
-        $viewData['description'] = "This is a contact page ...";
-        $viewData['name'] = "Online Store";
-        $viewData['direction'] = "123 Main St, Anytown, USA";
-        $viewData['phone'] = "(555) 123-4567";
+        $viewData['title'] = 'Contact us - Online Store';
+        $viewData['subtitle'] = 'Contact us';
+        $viewData['description'] = 'This is a contact page ...';
+        $viewData['name'] = 'Online Store';
+        $viewData['direction'] = '123 Main St, Anytown, USA';
+        $viewData['phone'] = '(555) 123-4567';
 
-        return view('home.contact')->with("viewData", $viewData);
+        return view('home.contact')->with('viewData', $viewData);
     }
 }
