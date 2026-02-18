@@ -9,4 +9,7 @@ Yes, the form of define de rout about combine logic of controller and view, we c
 
 When we try to add a new product with the name field blank, we get an error because the name field is required. Similarly, when we try to add a new product with the price field blank, we also get an error because the price field is required. However, when we fill in both fields and submit the form, the product is successfully added to the list of products.
 
+## Tutorial 2
+Completed the tutorial building a complete MVC application with Laravel. I use models, migrations, relationships, factories, seeders and ficticious data to create a complete application. And I also use the Pint code formatter to format the code and make it more readable.
+
 ### All activities are in the code, you can check the code for more details.
